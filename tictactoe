@@ -60,3 +60,14 @@ def win_check(board, mark):
 	# 2 diagonals, check to see if they match
 
 	win_check(test_board,'X')
+	
+# WHILE LOOP TO KEEP RUNNING THE GAME
+print('Welcome to Tic TAC TOE')
+
+while True:
+	
+	# PLAY THE GAME
+	
+	## SET EVERYTHING UP (BOARD, WHOS FIRST, CHOOSE MARKERS X,O)
+	
+	
