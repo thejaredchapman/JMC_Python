@@ -69,5 +69,37 @@ while True:
 	# PLAY THE GAME
 	
 	## SET EVERYTHING UP (BOARD, WHOS FIRST, CHOOSE MARKERS X,O)
+	the_board = [' ']
+	player1_marker, player2_marker = player_input()
+	
+	turn = choose_first()
+	print(turn + ' will go first'):
+	
+	play_game = input('Ready to play? y or n')
+	
+	if play_game == 'y'
+		game_on = True
+	else:
+		game_on = False
+		
+	## GAME PLAY
+	
+	while game_on:
+		
+		if turn == 'Player 1':
+			
+			# Show the board
+			display_board(the_board)
+			# Choose a position
+			
+			# Check if they won
+			
+			# Check if there is a tie
+			
+			# No ties and and no win? Then next player's turn
+		### PLAYER ONE TURN
+		
+		else:
+		
 	
 	
