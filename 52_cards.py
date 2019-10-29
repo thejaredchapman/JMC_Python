@@ -109,7 +109,7 @@ class Chips:
 	def hit_or_stand(deck,hand):
 	global playing # to control and upcoming while loop
 		while True:
-			x = input(‘Hit or Stand? Enter h or s ‘)
+			x = input('Hit or Stand? Enter h or s')
 		if x [0].lower() == h:
 			hit(deck, hand)
 		elif x[0].lower() == ‘s’:
