@@ -1,0 +1,9 @@
+import random
+
+a = heads
+b = tails
+
+def coinFlip(a,b)
+	random(a,b)
+
+coinflip()
